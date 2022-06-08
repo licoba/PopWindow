@@ -1,8 +1,28 @@
 # PopWindow
 对Android的底部弹窗、顶部弹窗菜单及自定义界面的使用封装。
 
-CSDN：[http://blog.csdn.net/hmyang314/article/details/70613478](http://blog.csdn.net/hmyang314/article/details/70613478)
+## 制作自己的库
+https://zhuanlan.zhihu.com/p/507980481
 
+## 使用方法
+
+添加仓库
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+添加依赖
+```
+   dependencies {
+           implementation 'com.github.licoba:PopWindow:Tag'
+   }
+```
+
+CSDN：[http://blog.csdn.net/hmyang314/article/details/70613478](http://blog.csdn.net/hmyang314/article/details/70613478
 ![](https://github.com/HMY314/PopWindow/blob/master/imageCache/gif1.gif)
 ![](https://github.com/HMY314/PopWindow/blob/master/imageCache/gif2.gif)
 
