@@ -9,17 +9,17 @@ https://zhuanlan.zhihu.com/p/507980481
 添加仓库
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
 添加依赖
 ```
-   dependencies {
-           implementation 'com.github.licoba:PopWindow:Tag'
-   }
+dependencies {
+        implementation 'com.github.licoba:PopWindow:Tag'
+}
 ```
 
 CSDN：[http://blog.csdn.net/hmyang314/article/details/70613478](http://blog.csdn.net/hmyang314/article/details/70613478
